@@ -18,7 +18,7 @@ export default defineConfig({
             resolvers: [PrimeVueResolver()]
         })
     ],
-    base: '/LuisDardon-7-desarrollo-web/',
+    base: '/ProyectoWeb/',
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
